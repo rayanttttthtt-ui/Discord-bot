@@ -3,7 +3,6 @@ from discord.ext import commands
 from PIL import Image, ImageDraw, ImageFont
 import requests
 from io import BytesIO
-
 import os
 TOKEN = os.getenv("DISCORD_TOKEN")
 bot = commands.Bot(command_prefix="/", intents=discord.Intents.all())
